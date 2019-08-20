@@ -1,12 +1,12 @@
 import React from "react";
 import { View, Text } from "react-native";
 
-function App() {
+const App = () => {
   return (
-    <View style={{ justifyContent: "center", alignItems: "center", backgroundColor: "pink" }}>
-      <Text>HELLO</Text>
+    <View>
+      <Text />
     </View>
   );
-}
+};
 
 export default App;
