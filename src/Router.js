@@ -14,10 +14,8 @@ export default () => {
     <ThemeProvider theme={Theme}>
       <Router>
         <Route path="/" exact component={Login} />
-        <Route path="/launch/" component={Launch} />
-        <Route path="/login/" component={Login} />
         <Route path="/register/" component={Register} />
-        <Route path="/intro/" component={Introduce} />
+        <Route path="/main/" component={Launch} />
       </Router>
     </ThemeProvider>
   );
