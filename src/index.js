@@ -1,6 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./App";
-import Launch from "./Launch";
+import Router from "./Router";
 
-ReactDOM.render(<Launch />, document.getElementById("root"));
+ReactDOM.render(<Router />, document.getElementById("root"));

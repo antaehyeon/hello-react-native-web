@@ -7,6 +7,7 @@
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-native-web": "^0.11.7",
+    "react-router-dom": "^5.0.1",
     "react-scripts": "3.1.1",
     "styled-components": "^4.3.2"
   },
@@ -32,6 +33,7 @@
     ]
   },
   "devDependencies": {
-    "babel-plugin-module-resolver": "^3.2.0"
+    "babel-plugin-module-resolver": "^3.2.0",
+    "cross-env": "^5.2.0"
   }
 }
